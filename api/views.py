@@ -8,7 +8,7 @@ from twilio.rest import Client
 import os
 from dotenv import load_dotenv
 import logging
-
+ 
 load_dotenv()
 
 def send_alerts(request):
